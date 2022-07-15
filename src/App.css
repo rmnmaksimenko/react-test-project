@@ -1,3 +1,21 @@
+body {
+  background-color: #282c34;
+  color: #f6f6f6;
+}
+
+span {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  width: fit-content;
+  padding: 20px;
+  margin: 20px;
+  background-color: #484c54;
+}
+/* 
 .App {
   text-align: center;
 }
@@ -35,4 +53,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

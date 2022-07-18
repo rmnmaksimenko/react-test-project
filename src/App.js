@@ -1,12 +1,14 @@
 import './App.css';
 import Counter from './counter';
-import { Time, Button } from './time';
+import NewForm from './form';
+import { Time } from './time';
 
 function App() {
-  // return <Counter step={2} initialValue={55} />;
   return (
     <div>
-      <Time />
+      {/* <Counter /> */}
+      {/* <Time /> */}
+      <NewForm />
     </div>
   );
 }

@@ -20,10 +20,10 @@ export class Time extends Component {
 
   render() {
     return (
-      <>
+      <div className="container">
         <span>{this.state.message}</span>
         <Button label="Change message" changeMessage={this.updateMessage} />
-      </>
+      </div>
     );
   }
 }

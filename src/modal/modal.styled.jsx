@@ -6,7 +6,7 @@ export const Modal__backdrop = styled.div`
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba($color: #000000, $alpha: 0.5);
+  background-color: #0008;
 `;
 
 export const Modal__content = styled.div`
@@ -18,7 +18,7 @@ export const Modal__content = styled.div`
   max-width: 600px;
   width: 100%;
   padding: 12px;
-  background-color: #fff;
+  background-color: #222;
   border-radius: 3px;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
